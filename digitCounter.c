@@ -12,9 +12,9 @@ int counter(long int x){
 
 int binaryCounter(long int x) {
     int binary_counter = 0;
-    while (integer != 0) {
-        printf("integer : %d\n", integer);
-        integer /= 2;
+    while (x != 0) {
+        printf("integer : %d\n", x);
+        x /= 2;
         binary_counter++;
     }
 
